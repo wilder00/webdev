@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,14 @@
 </head>
 <body>
   
-  <pre id="editable" contenteditable="true">
-    <code>Este texto en varias líneas</code>
-    <code>es editable</code>
-    </pre>
+  <pre class="code-language js">
+const express = require('Express');
+const app = express();
+
+app.set("/", (req, res) => {
+  console.log("algo que no sé");
+});
+  </pre>
 
 
   <script src="codeshowerjs.js"></script>

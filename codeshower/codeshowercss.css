@@ -1,6 +1,14 @@
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
 pre{
+  margin:0;
+  padding:10px;
   counter-reset: line;
-  
+  background-color: rgba(0, 0, 0, 0.664);
+  color: white;
 }
 code{
   counter-increment: line;
@@ -14,4 +22,14 @@ code:before{
   margin-right: 5px;
   padding-right: 5px;
   background-color: lightgrey;
+}
+
+.code-language .reserved{
+  color: red;
+}
+.code-language .otro{
+  color: greenyellow;
+}
+.code-language .string{
+  color: rgb(255, 94, 0);
 }
